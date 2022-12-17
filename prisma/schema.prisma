@@ -39,5 +39,5 @@ model MovieRent {
   movieID String
 
   @@id([userID, movieID])
-  @@map("movie   rent")
+  @@map("movie rent")
 }
